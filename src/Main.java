@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Item[] store = setupStore();
@@ -35,6 +33,8 @@ public class Main {
             System.exit(1);
         } else {
             for (int i = 1; i < limit; i++) {
+                if (i > n)
+                    break;
                 try {
                     cart.add(store[Integer.parseInt(args[i])]);
                 } catch (NumberFormatException e2) {

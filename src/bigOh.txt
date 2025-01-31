@@ -1,0 +1,5 @@
+Alston Wang
+1-31-2025
+CSC 112 - Lab 1
+
+6) Each method only has one loop, so I think the Big-Oh runtime for both methods would be O(N).
